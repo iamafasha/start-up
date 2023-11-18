@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100; /* optional: to ensure header stays on top of other elements */
+    background: #FCAF02;
+}
+
+h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-weight: bold; /* Add this line */
+}
+
+nav li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+.hero-section {
+    padding: 20px;
+}
+
+.hero-left {
+    width: 60%;
+}
+
+.hero-left p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-right{
+    width: 40%;
+}
+
+.hero-right img{
+    width: 100%;
+    transform: scaleX(-1); 
+}
+
+button {
+    width: 323px;
+    height: 66px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 500px;
+    background: #FCAF02;
+}
+
+#contact-us{
+    padding: 30px;
+}
+
+#contact-us h2{
+    color: #FCAF02;
+}
+
+#contact-us form{
+    text-align: center;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.inline-forms input{
+    width: 49%;
+}
+
+/* Input */
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FCAF02;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: black;
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+/* Make the place holder yellow */
+
+::placeholder {
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+.table{
+    padding: 20px;
+}
+
+.table .flex{
+    justify-content: center;
+}
+
+.table table{
+    width: 100%;
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table table td, .table table th{
+    border-left: 1px solid #FCAF02;
+}
+
+.table table th{
+    border: 1px solid #FCAF02;
+}
+
+.table table td, .table table th{
+    padding: 20px;
+}
+
+.table table tr:last-child td{
+    border-bottom: 1px solid #FCAF02;
+    background: #FCAF02;
+    color: black;
+}
